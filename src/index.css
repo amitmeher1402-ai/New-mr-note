@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* Ruled Lines background styling */
+.ruled-background {
+  background-color: #fafafa;
+  background-image: linear-gradient(rgba(212, 212, 216, 0.7) 1px, transparent 1px);
+  background-size: 100% 2.4rem;
+  background-attachment: local;
+}
+
+.ruled-background-dark {
+  background-color: #09090b;
+  background-image: linear-gradient(rgba(63, 63, 70, 0.45) 1px, transparent 1px);
+  background-size: 100% 2.4rem;
+  background-attachment: local;
+}
+
+/* Square/Graph Grid background styling */
+.grid-background {
+  background-color: #fafafa;
+  background-image: 
+    linear-gradient(rgba(212, 212, 216, 0.6) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(212, 212, 216, 0.6) 1px, transparent 1px);
+  background-size: 2.4rem 2.4rem;
+  background-attachment: local;
+}
+
+.grid-background-dark {
+  background-color: #09090b;
+  background-image: 
+    linear-gradient(rgba(63, 63, 70, 0.35) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(63, 63, 70, 0.35) 1px, transparent 1px);
+  background-size: 2.4rem 2.4rem;
+  background-attachment: local;
+}
+
+/* Dots Grid background styling */
+.dots-background {
+  background-color: #fafafa;
+  background-image: radial-gradient(rgba(161, 161, 170, 0.8) 1.5px, transparent 1.5px);
+  background-size: 1.8rem 1.8rem;
+  background-attachment: local;
+}
+
+.dots-background-dark {
+  background-color: #09090b;
+  background-image: radial-gradient(rgba(113, 113, 122, 0.5) 1.5px, transparent 1.5px);
+  background-size: 1.8rem 1.8rem;
+  background-attachment: local;
+}
+
+/* Custom scrollbar hides */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

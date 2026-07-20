@@ -1,0 +1,6 @@
+{
+  "name": "Notes",
+  "description": "A feature-rich paragraph and block-based digital notepad with quick-commands, double-tap text highlighting, grid-style backgrounds, audio recordings, and easy exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
